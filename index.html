@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Sreeram Goalla · Product Work</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" />
+<style>
+  :root { --green: #0e874b; --green-dark: #006736; --dark: #1d1d20; --muted: rgba(29,29,32,.64); --divider: rgba(7,13,20,.12); --paper: #fff; --bg: #fafaf9; }
+  @media (prefers-color-scheme: dark) { :root { color-scheme: dark; --green: #3fbf7f; --green-dark: #74d099; --dark: #ecece9; --muted: rgba(236,236,233,.66); --divider: rgba(236,236,233,.13); --paper: #181c1a; --bg: #111412; } }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Poppins", -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--dark); line-height: 1.6; }
+  .hero { background: linear-gradient(135deg, #070d14 0%, #1d1d20 55%, #006736 130%); color: #fdfdfd; padding: 64px 16px 56px; text-align: center; }
+  .hero h1 { font-size: clamp(28px, 5vw, 38px); font-weight: 600; margin-bottom: 10px; }
+  .hero p { color: #d6d3d1; max-width: 640px; margin: 0 auto; }
+  main { max-width: 960px; margin: 0 auto; padding: 48px 16px; display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+  a.card { display: block; text-decoration: none; color: inherit; background: var(--paper); border: 1px solid var(--divider); border-radius: 12px; padding: 24px; }
+  a.card:hover, a.card:focus-visible { border-color: var(--green); outline: none; }
+  .tag { font-size: 12px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--green-dark); font-weight: 600; }
+  a.card h2 { font-size: 19px; font-weight: 600; margin: 6px 0 8px; }
+  a.card p { font-size: 14.5px; color: var(--muted); }
+  footer { text-align: center; color: var(--muted); font-size: 13.5px; padding: 0 16px 40px; }
+</style>
+</head>
+<body>
+  <div class="hero">
+    <h1>Product Work · Sreeram Goalla</h1>
+    <p>Walkthroughs of SaaS product capabilities I've owned, analysed and delivered at ReadyTech.</p>
+  </div>
+  <main>
+    <a class="card" href="ready-recruit-security/">
+      <span class="tag">Ready Recruit · Security</span>
+      <h2>Security &amp; Compliance</h2>
+      <p>SAML SSO, multi-factor authentication, password, lockout and session policies, IP whitelisting and audit logging, all configured by each customer.</p>
+    </a>
+    <a class="card" href="he-enrolment-journey/">
+      <span class="tag">Ready Student · Higher Education</span>
+      <h2>HE Enrolment Journey</h2>
+      <p>From curriculum setup to confirmed enrolment: the admin-led and student self-enrolment paths, validation rules and adjustments.</p>
+    </a>
+    <a class="card" href="https://sreeramgoalla.github.io/self-enrol-demo/">
+      <span class="tag">Ready Student · Demo</span>
+      <h2>Student Self-Enrolment Demo</h2>
+      <p>A screen-by-screen walkthrough of students choosing and managing their own subjects on the Student Portal.</p>
+    </a>
+  </main>
+  <footer>Sreeram Goalla · Melbourne</footer>
+</body>
+</html>
