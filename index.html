@@ -16,6 +16,7 @@
   main { max-width: 960px; margin: 0 auto; padding: 48px 16px; display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
   a.card { display: block; text-decoration: none; color: inherit; background: var(--paper); border: 1px solid var(--divider); border-radius: 12px; padding: 24px; }
   a.card:hover, a.card:focus-visible { border-color: var(--green); outline: none; }
+  .roles { font-size: 12.5px; color: var(--muted); margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--divider); }
   .tag { font-size: 12px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--green-dark); font-weight: 600; }
   a.card h2 { font-size: 19px; font-weight: 600; margin: 6px 0 8px; }
   a.card p { font-size: 14.5px; color: var(--muted); }
@@ -25,23 +26,26 @@
 <body>
   <div class="hero">
     <h1>Product Work · Sreeram Goalla</h1>
-    <p>Walkthroughs of SaaS product capabilities I've owned, analysed and delivered at ReadyTech.</p>
+    <p>Walkthroughs of SaaS capabilities I've worked on at ReadyTech, each showing my part as product manager, business analyst and tester.</p>
   </div>
   <main>
     <a class="card" href="ready-recruit-security/">
       <span class="tag">Ready Recruit · Security</span>
       <h2>Security &amp; Compliance</h2>
       <p>SAML SSO, multi-factor authentication, password, lockout and session policies, IP whitelisting and audit logging, all configured by each customer.</p>
+      <p class="roles">My role: product owner &amp; business analyst · acceptance &amp; UAT</p>
     </a>
     <a class="card" href="he-enrolment-journey/">
       <span class="tag">Ready Student · Higher Education</span>
       <h2>HE Enrolment Journey</h2>
       <p>From curriculum setup to confirmed enrolment: the admin-led and student self-enrolment paths, validation rules and adjustments.</p>
+      <p class="roles">My role: product · business analysis · end-to-end QA</p>
     </a>
     <a class="card" href="https://sreeramgoalla.github.io/self-enrol-demo/">
       <span class="tag">Ready Student · Demo</span>
       <h2>Student Self-Enrolment Demo</h2>
       <p>A screen-by-screen walkthrough of students choosing and managing their own subjects on the Student Portal.</p>
+      <p class="roles">My role: demo narrative · setup checklist · test evidence</p>
     </a>
   </main>
   <footer>Sreeram Goalla · Melbourne</footer>
