@@ -286,10 +286,9 @@
   <span class="eyebrow">Product journey · Higher Education</span>
   <h1>HE Enrolment Journey<br/>Two paths, one platform</h1>
   <p class="sub">
-    From setting up curriculum to a confirmed student enrolment — the end-to-end journey through
-    Ready Student, whether the wizard is driven by an administrator or by the student themselves.
+    From setting up curriculum to a confirmed student enrolment — the end-to-end journey through the student management system, whether the wizard is driven by an administrator or by the student themselves.
   </p>
-  <div class="squad">Built by the <strong>Dynamite Squad</strong> · ReadyTech — Ready Student (JR Plus)<br />Walkthrough by <strong>Sreeram Goalla</strong> · Product, Business Analysis &amp; QA</div>
+  <div class="squad">Built by the <strong>Dynamite Squad</strong> · ReadyTech<br />Walkthrough by <strong>Sreeram Goalla</strong> · Product, Business Analysis &amp; QA</div>
   <a class="pdf-btn" href="Sreeram-Goalla-HE-Enrolment-Journey.pdf" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>Download PDF</a>
 </div>
 
@@ -317,8 +316,7 @@
     <p class="lede">
       Every HE student ends up in the same place — a confirmed set of Subject Offerings tied to
       Academic Periods, financial liability created, TCSI records prepared. But two very different
-      journeys can get them there: an <strong>administrator</strong> can drive the whole process from
-      Ready Student Core, or the <strong>student</strong> can drive it themselves from the Plus Student Portal.
+      journeys can get them there: an <strong>administrator</strong> can drive the whole process from the student management system (SMS), or the <strong>student</strong> can drive it themselves from the Student Portal.
     </p>
     <p class="lede" style="margin-top: 12px;">
       Under the surface, both journeys share the same backend services, the same requisite engine, and
@@ -393,7 +391,7 @@
     <h2><span class="step-no">1</span>Setup — before either wizard can open</h2>
     <p class="lede">
       Everything the student — or their administrator — experiences is controlled upstream on
-      <strong>Ready Student Core</strong> and <strong>Curriculum Builder</strong>. Three layers matter:
+      <strong>the student management system</strong> and <strong>Curriculum Builder</strong>. Three layers matter:
       the curriculum has to exist, the course has to be structured, and (for self-enrol only) the
       right switches have to be flipped.
     </p>
@@ -426,10 +424,10 @@
 
     <div class="callout">
       <span class="emoji">🗝️</span>
-      <div><strong>CB is where HE lives.</strong> RS Core's engine is VET-focused and can't natively express HE structures — programs, subjects, versioning, requisites, structured groups. CB fills that gap and hands the results to Core automatically.</div>
+      <div><strong>CB is where HE lives.</strong> The SMS's core engine is VET-focused and can't natively express HE structures — programs, subjects, versioning, requisites, structured groups. CB fills that gap and hands the results to the SMS automatically.</div>
     </div>
 
-    <h3 class="sub"><span class="letter">b.</span> RS Core — calendars, offerings, course, student</h3>
+    <h3 class="sub"><span class="letter">b.</span> The SMS — calendars, offerings, course, student</h3>
     <p class="lede" style="font-size: 15.5px;">
       Once CB has synced, everything else is built in Core: Academic Periods with Period Types (one
       must be marked <strong>Primary</strong>), Subject Offerings that tie a synced subject version to
@@ -440,10 +438,10 @@
     <figure class="shot">
       <div class="frame">
         <span class="dots"><span class="dot"></span><span class="dot"></span><span class="dot"></span></span>
-        <span class="url">Ready Student Core · Academic Periods › Edit</span>
+        <span class="url">SMS · Academic Periods › Edit</span>
       </div>
       <div class="body">
-        <span class="label">RS Core · Academic Period edit</span>
+        <span class="label">SMS · Academic Period edit</span>
         <h4>Semester 2 (Jul–Sep) 2026 · Sem2-2026</h4>
         <div class="rows">
           <div class="row"><span>Period Type</span><span class="meta">Semester (Primary)</span></div>
@@ -486,7 +484,7 @@
     <h2><span class="step-no">2</span>Login &amp; entry points</h2>
     <p class="lede">
       Two front doors, two different actors — but both lead to the same wizard engine. The
-      administrator signs into RS Core; the student signs into the Plus Student Portal. Each surface
+      administrator signs into the SMS; the student signs into the Student Portal. Each surface
       only shows the enrolment action when the platform confirms it's allowed.
     </p>
 
@@ -494,11 +492,11 @@
       <figure class="shot">
         <div class="frame">
           <span class="dots"><span class="dot"></span><span class="dot"></span><span class="dot"></span></span>
-          <span class="url">Ready Student Core · Student › Enrolments</span>
+          <span class="url">SMS · Student › Enrolments</span>
           <span class="tag admin">Admin</span>
         </div>
         <div class="body">
-          <span class="label">RS Core · Student Enrolment</span>
+          <span class="label">SMS · Student Enrolment</span>
           <h4>Enrolment · HE Program (Semester 2, 2026)</h4>
           <div class="rows">
             <div class="row"><span>Manage Enrolment</span><span class="meta">HE only — hidden on VET</span></div>
@@ -515,7 +513,7 @@
           <span class="tag">Student</span>
         </div>
         <div class="body">
-          <span class="label">Plus Student Portal · Enrolments</span>
+          <span class="label">Student Portal · Enrolments</span>
           <h4>HE Program · Enrolment open</h4>
           <div class="rows">
             <div class="row"><span>Enrol for Semester 2 — closes 30/09/2026</span><span><span class="badge">Start</span></span></div>
@@ -528,7 +526,7 @@
 
     <div class="callout">
       <span class="emoji">🔐</span>
-      <div><strong>Credentials, one place.</strong> Student logins are provisioned in RS Core the moment a student record is created. Admins log in with their staff credentials — the same sign-in service that also authenticates Curriculum Builder.</div>
+      <div><strong>Credentials, one place.</strong> Student logins are provisioned in the SMS the moment a student record is created. Admins log in with their staff credentials — the same sign-in service that also authenticates Curriculum Builder.</div>
     </div>
   </div>
 </section>
@@ -548,7 +546,7 @@
       <div class="side admin">
         <span class="label">Admin path</span>
         <h3>Administrator drives</h3>
-        <p>Staff at the institution — admissions or student services — running the enrolment inside Ready Student Core.</p>
+        <p>Staff at the institution — admissions or student services — running the enrolment inside the SMS.</p>
         <ul>
           <li>Opens Manage Enrolment on the student record</li>
           <li>Sees offerings without portal-flag gating</li>
@@ -560,7 +558,7 @@
       <div class="side student">
         <span class="label">Student path</span>
         <h3>Student drives</h3>
-        <p>The student themselves, from the Plus Student Portal, inside the guardrails their institution set up in advance.</p>
+        <p>The student themselves, from the Student Portal, inside the guardrails their institution set up in advance.</p>
         <ul>
           <li>Sees the Enrol action when the window is open</li>
           <li>One of three wizard scopes: <em>Year</em>, <em>Period</em>, or <em>Adjust</em></li>
@@ -577,7 +575,7 @@
   <div class="container">
     <h2><span class="step-no">4</span>The admin-led journey</h2>
     <p class="lede">
-      Five steps from Manage Enrolment to a confirmed enrolment. The wizard runs inside RS Core; the
+      Five steps from Manage Enrolment to a confirmed enrolment. The wizard runs inside the SMS; the
       admin can override two gates on the student's behalf.
     </p>
 
@@ -590,7 +588,7 @@
     </div>
 
     <ol class="steps admin">
-      <li><div class="body"><h4>Open Manage Enrolment</h4><p>From the student's Enrolment tab in RS Core. HE-only surface — VET students don't see it.</p></div></li>
+      <li><div class="body"><h4>Open Manage Enrolment</h4><p>From the student's Enrolment tab in the SMS. HE-only surface — VET students don't see it.</p></div></li>
       <li><div class="body"><h4>Click Enrol Student against a period</h4><p>Each academic period on the enrolment shows an Enrol action. Clicking opens the wizard scoped to that period.</p></div></li>
       <li><div class="body"><h4>Select offerings</h4><p>Pick the Subject Offerings for the period. The pool matches what a self-enrolling student would see — but the admin isn't gated by portal flags.</p></div></li>
       <li><div class="body"><h4>Review &amp; validate</h4><p>The system runs the six validation checks (§6). Two — Requisites and Standard Load — can be overridden here with a captured reason.</p></div></li>
@@ -834,7 +832,7 @@
       <thead><tr><th style="width: 32%">Capability</th><th>What it means for the institution</th></tr></thead>
       <tbody>
         <tr><td><span class="chip on">Two enrolment paths</span></td>
-          <td>Admin-led (RS Core Manage Enrolment) and student-led (Plus Student Portal). Same engine, different front door, different override authority.</td></tr>
+          <td>Admin-led (Manage Enrolment in the SMS) and student-led (Student Portal). Same engine, different front door, different override authority.</td></tr>
         <tr><td><span class="chip on">Curriculum in one place</span></td>
           <td>Programs, subjects, versions and requisites live in Curriculum Builder. A single "Set to Active" click syncs them to Core.</td></tr>
         <tr><td><span class="chip on">Three self-enrol scopes</span></td>
