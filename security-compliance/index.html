@@ -245,6 +245,10 @@
     table { min-width: 0 !important; }
     a { text-decoration: none; }
   }
+
+  /* ---- Back to portfolio ---- */
+  nav.toc a.home-link { color: var(--green); font-weight: 600; display: inline-flex; align-items: center; gap: 6px; margin-right: 8px; border-right: 1px solid var(--divider); }
+  nav.toc a.home-link:hover, nav.toc a.home-link:focus-visible { color: var(--green-dark); }
 </style>
 </head>
 <body>
@@ -266,6 +270,7 @@
 <!-- ======================= TOC ======================= -->
 <nav class="toc" aria-label="Sections">
   <div class="container">
+    <a class="home-link" href="../"><span aria-hidden="true">←</span> Portfolio</a>
     <a href="#overview">Introduction</a>
     <a href="#my-role">My role</a>
     <a href="#identity">Identity &amp; access</a>
