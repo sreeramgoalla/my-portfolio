@@ -12,3 +12,4 @@ pdf() { # $1 = page folder, $2 = pdf file name
 pdf security-compliance   Sreeram-Goalla-Security-Compliance.pdf
 pdf he-enrolment-journey   Sreeram-Goalla-HE-Enrolment-Journey.pdf
 pdf project-argus          Sreeram-Goalla-Project-Argus.pdf
+pdf apprentice-journey    Sreeram-Goalla-Apprentice-Journey.pdf
