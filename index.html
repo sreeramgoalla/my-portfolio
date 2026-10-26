@@ -20,6 +20,8 @@
   .tag { font-size: 12px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--green-dark); font-weight: 600; }
   a.card h2 { font-size: 19px; font-weight: 600; margin: 6px 0 8px; }
   a.card p { font-size: 14.5px; color: var(--muted); }
+  a.card.featured { grid-column: 1 / -1; border-color: var(--green); background: linear-gradient(135deg, var(--paper) 60%, rgba(14,135,75,.08)); }
+  a.card.featured h2 { font-size: 22px; }
   footer { text-align: center; color: var(--muted); font-size: 13.5px; padding: 0 16px 40px; }
 </style>
 </head>
@@ -29,6 +31,12 @@
     <p>Walkthroughs of SaaS capabilities I've worked on at ReadyTech, each showing my part as product manager, business analyst and tester.</p>
   </div>
   <main>
+    <a class="card featured" href="senior-business-analyst/">
+      <span class="tag">Start here · About my work</span>
+      <h2>Senior Business Analyst Portfolio</h2>
+      <p>Who I am as an analyst: where my experience fits, six capability areas matched to evidence, how I work from discovery to delivery, and what I bring to a team.</p>
+      <p class="roles">Discovery · solution shaping · requirements · delivery support · quality</p>
+    </a>
     <a class="card" href="apprentice-journey/">
       <span class="tag">Apprenticeships · User journey</span>
       <h2>Apprentice Journey</h2>
@@ -58,12 +66,6 @@
       <h2>Student Self-Enrolment Demo</h2>
       <p>A screen-by-screen walkthrough of students choosing and managing their own subjects on the Student Portal.</p>
       <p class="roles">My role: demo narrative · setup checklist · test evidence</p>
-    </a>
-    <a class="card" href="senior-business-analyst/">
-      <span class="tag">Business analysis · Capabilities</span>
-      <h2>Senior Business Analyst Portfolio</h2>
-      <p>Where my experience fits, six capability areas matched to evidence, how I work from discovery to delivery, and what I bring to a team.</p>
-      <p class="roles">Discovery · solution shaping · requirements · delivery support · quality</p>
     </a>
   </main>
   <footer>Sreeram Goalla · Melbourne</footer>
